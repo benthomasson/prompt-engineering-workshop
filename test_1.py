@@ -46,3 +46,15 @@ def test_json_block_qwen():
     print(count)
     assert count is not None
     assert count[0] == [1,2,3,4,5,6,7,8,9,10]
+
+def test_json_block_qwen2():
+    response = generate_response(
+        "qwen3-14b",
+        "helpful_assistant",
+        "count_json2",
+    )
+    print(response)
+    count = parse_json_blocks(response)
+    print(count)
+    assert count is not None
+    assert count[0] == [1,2,3,4,5,6,7,8,9,10]
