@@ -8,7 +8,6 @@ def test_hello_world():
         "deepseek-r1-14b",
         "helpful_code_assistant",
         "hello_world",
-        cache_prompt=True,
     )
     print(response)
     code = parse_code_blobs(response)
@@ -28,7 +27,19 @@ def test_json_block():
         "deepseek-r1-14b",
         "helpful_assistant",
         "count_json",
-        cache_prompt=True,
+    )
+    print(response)
+    count = parse_json_blocks(response)
+    print(count)
+    assert count is not None
+    assert count[0] == [1,2,3,4,5,6,7,8,9,10]
+
+
+def test_json_block_qwen():
+    response = generate_response(
+        "qwen3-14b",
+        "helpful_assistant",
+        "count_json",
     )
     print(response)
     count = parse_json_blocks(response)

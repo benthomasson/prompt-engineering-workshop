@@ -1,0 +1,6 @@
+---
+- name: deepseek-r1-14b
+  model: ollama/deepseek-r1:14b
+- name: qwen3-14b
+  model: ollama/qwen3:14b
+...
