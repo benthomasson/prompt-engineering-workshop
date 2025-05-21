@@ -8,7 +8,7 @@ def test_planets_0():
     response = generate_response(
         "deepseek-r1-14b",
         "helpful_assistant",
-        "planet_names",
+        "planet_names0",
         temperature=0
     )
     print(response)
@@ -18,7 +18,7 @@ def test_planets_1():
     response = generate_response(
         "deepseek-r1-14b",
         "helpful_assistant",
-        "planet_names",
+        "planet_names1",
         temperature=1
     )
     print(response)
