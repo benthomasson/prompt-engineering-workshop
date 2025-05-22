@@ -2,6 +2,10 @@
 # Prompt Engineering Workshop
 
 
+## Requirements
+
+- python3
+- [ollama](https://ollama.com/)
 
 ## Installation
 
@@ -10,6 +14,8 @@ Install requirements:
 ```bash
 pip install -r requirements.txt
 ```
+
+
 
 Download models:
 
