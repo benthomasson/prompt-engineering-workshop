@@ -11,10 +11,6 @@ from litellm import completion
 
 logger = logging.getLogger(__name__)
 
-FULL_MODEL_NAMES = {
-    'deepseek-r1-14b': 'ollama/deepseek-r1:14b',
-}
-
 def load_model_config(config_file="models.yaml"):
     models = {}
     with open(config_file) as f:
