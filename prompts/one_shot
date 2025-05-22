@@ -1,0 +1,8 @@
+Return your result as a json block like this example:
+
+```json
+[1,2,3]
+```
+
+
+Count from 1 to 10 as a JSON list.
