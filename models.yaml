@@ -3,6 +3,8 @@
   model: ollama/deepseek-r1:14b
 - name: qwen3-14b
   model: ollama/qwen3:14b
+- name: qwen3-06b
+  model: ollama/qwen3:0.6b
 - name: granite3-2-8b
   model: ollama/granite3.2:8b
 ...

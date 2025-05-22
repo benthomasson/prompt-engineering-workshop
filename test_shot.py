@@ -6,7 +6,7 @@ def test_zero_shot():
     Count from 1 to 10 as a JSON list.
     """
     response = generate_response(
-        "granite3-2-8b",
+        "qwen3-06b",
         "helpful_assistant",
         "zero_shot",
         temperature=0,
@@ -30,7 +30,7 @@ def test_one_shot():
     Count from 1 to 10 as a JSON list.
     """
     response = generate_response(
-        "granite3-2-8b",
+        "qwen3-06b",
         "helpful_assistant",
         "one_shot",
         temperature=0,
@@ -61,7 +61,7 @@ def test_few_shot():
     Count from 1 to 10 as a JSON list.
     """
     response = generate_response(
-        "granite3-2-8b",
+        "qwen3-06b",
         "helpful_assistant",
         "few_shot",
         temperature=0,
