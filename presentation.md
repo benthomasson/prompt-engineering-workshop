@@ -21,12 +21,14 @@
 [comment]: # (respondToHashChanges: false)
 [comment]: # (Other settings are documented at https://revealjs.com/config/)
 
+![ansible_a](media/ansible_a_animation.gif) <!-- .element: style="align: right; height:20vh; max-width:80vw; image-rendering: crisp-edges;" -->
+
 Ben Thomasson | Ansible | May 22, 2025
 
 ## Prompt Engineering Workshop
 
 
-[comment]: # (!!! data-auto-animate)
+[comment]: # (!!! data-background-color="black")
 
 - The basics of LLMs
 
@@ -55,12 +57,14 @@ Deep Dive into LLMs
 
 [comment]: # (!!!)
 
-- [Understanding Is Compression](https://arxiv.org/pdf/2407.07723)
-- [Intelligence is Prediction](https://link.springer.com/article/10.1007/s13164-021-00538-5)
+- [Understanding is Compression](https://arxiv.org/pdf/2407.07723)
+- [Intelligence is Accurate Prediction](https://link.springer.com/article/10.1007/s13164-021-00538-5)
 
 [comment]: # (!!!)
 
-LLMs compress the input data set about 260 times (for llama3).
+LLMs compress the input data set about 200 times (for llama3).
+
+15 trillion tokens at 4 bytes each into 300GB of model weights.
 
 [comment]: # (!!!)
 
@@ -69,6 +73,13 @@ LLMs predict the next token by calculating the probability of every token in its
 [comment]: # (|||)
 
 Then LLMs sample from the distribution to find the next token.
+
+[comment]: # (|||)
+
+![predict](media/predict.gif) <!-- .element: style="align: right; height:50vh; max-width:80vw; image-rendering: crisp-edges;" -->
+
+[Ref: A Gentle Introduction to LLM APIs](https://wandb.ai/darek/llmapps/reports/A-Gentle-Introduction-to-LLM-APIs--Vmlldzo0NjM0MTMz)
+
 
 [comment]: # (|||)
 
@@ -226,3 +237,12 @@ calling the `main()` function.
 - Reason and React (ReAct)
 
 [comment]: # (!!! data-auto-animate)
+
+**Agents (ReAct)**
+
+- Agents = LLM + Agent framework
+- Agent frameworks provide tool calling
+- LLMs choose which tools to use
+- Tools send information back to the LLM
+
+[comment]: # (!!!)
