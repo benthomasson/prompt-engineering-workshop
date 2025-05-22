@@ -1,3 +1,4 @@
 ollama
 litellm
 pytest
+ftlagents @ git+https://github.com/benthomasson/ftlagents@main
