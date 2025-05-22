@@ -155,22 +155,32 @@ is executed directly (not imported as a module),
 calling the `main()` function.
 ```
 
+[comment]: # (|||)
+
+### Prompt Structure
+
+1. Role
+1. General Purpose
+1. Context Information
+1. Rules and Constraints
+1. Specific Task
+
 [comment]: # (!!! data-auto-animate)
 
-## Prompting Techniques
+### Prompting Techniques
 
 - Zero Shot
 
 [comment]: # (!!! data-auto-animate)
 
-## Prompting Techniques
+### Prompting Techniques
 
 - Zero Shot
 - One Shot
 
 [comment]: # (!!! data-auto-animate)
 
-## Prompting Techniques
+### Prompting Techniques
 
 - Zero Shot
 - One Shot
@@ -178,7 +188,7 @@ calling the `main()` function.
 
 [comment]: # (!!! data-auto-animate)
 
-## Prompting Techniques
+### Prompting Techniques
 
 - Zero Shot
 - One Shot
@@ -187,7 +197,7 @@ calling the `main()` function.
 
 [comment]: # (!!! data-auto-animate)
 
-## Prompting Techniques
+### Prompting Techniques
 
 - Zero Shot
 - One Shot
@@ -197,7 +207,7 @@ calling the `main()` function.
 
 [comment]: # (!!! data-auto-animate)
 
-## Prompting Techniques
+### Prompting Techniques
 
 - Zero Shot
 - One Shot
@@ -208,20 +218,20 @@ calling the `main()` function.
 
 [comment]: # (!!! data-auto-animate)
 
-## Advanced Techniques
+### Advanced Techniques
 
 - Step-back Prompting
 
 [comment]: # (!!! data-auto-animate)
 
-## Advanced Techniques
+### Advanced Techniques
 
 - Step-back Prompting
 - Chain-of-Thought Prompting
 
 [comment]: # (!!! data-auto-animate)
 
-## Advanced Techniques
+### Advanced Techniques
 
 - Step-back Prompting
 - Chain-of-Thought Prompting
@@ -229,7 +239,7 @@ calling the `main()` function.
 
 [comment]: # (!!! data-auto-animate)
 
-## Advanced Techniques
+### Advanced Techniques
 
 - Step-back Prompting
 - Chain-of-Thought Prompting
