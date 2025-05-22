@@ -6,7 +6,7 @@ from tools import Tool, get_tool_descriptions, DEFAULT_TOOL_DESCRIPTION_TEMPLATE
 def test_hello_world():
     interp = LocalPythonInterpreter([], {})
     response = generate_response(
-        "ollama/deepseek-r1:14b",
+        "deepseek-r1-14b",
         "smolagents_code",
         "hello_world",
         cache_prompt=True,
@@ -39,7 +39,7 @@ def test_hello_tools2():
     tools = dict(weather=weather_tool, final_answer=FinalAnswer(state))
     interp = LocalPythonInterpreter([], tools)
     response = generate_response(
-        "ollama/deepseek-r1:14b",
+        "deepseek-r1-14b",
         "smolagents_code",
         "hello_tools2",
         cache_prompt=True,
