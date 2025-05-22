@@ -32,7 +32,7 @@ def test_one_shot():
     response = generate_response(
         "granite3-2-8b",
         "helpful_assistant",
-        "zero_shot",
+        "one_shot",
         temperature=0,
     )
     print(response)
