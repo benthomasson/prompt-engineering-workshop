@@ -31,7 +31,7 @@ def test_hello_tools2():
     weather_tool = Tool(
         "weather",
         "Look up the weather",
-        dict(location=dict(description="where to look up the weather", type="str")),
+        dict(location=dict(description="Where to look up the weather. Returns a string describing the weather", type="str")),
         "str",
         "cloudy",
     )
@@ -42,6 +42,7 @@ def test_hello_tools2():
         "deepseek-r1-14b",
         "smolagents_code",
         "hello_tools2",
+        temperature=0,
         cache_prompt=True,
         replacements=dict(
             tool_descriptions=get_tool_descriptions(

@@ -1,0 +1,36 @@
+<think>
+Okay, I need to write a "Hello World" program in Python. Let me think about how to approach this.
+
+First, I know that in Python, printing is done using the print() function. So I should use that to output the text "Hello World".
+
+I don't need any external libraries or complex setups for such a simple task. It's just a straightforward print statement.
+
+So, the code will be as simple as calling print("Hello World"). That's it.
+
+Let me make sure there are no variables involved here since I'm just printing a static string.
+
+I also remember that Python requires indentation, but in this case, since it's a single line, there's nothing to indent. The syntax is straightforward.
+
+Wait, do I need to import anything? No, because print is a built-in function, so I don't need any imports here.
+
+Alright, putting it all together, the code should just be:
+
+print("Hello World")
+
+That's the simplest way to achieve this.
+</think>
+
+To write a "Hello World" program in Python, you can use the `print()` function to output text. Here is the code:
+
+```python
+print("Hello World")
+```
+
+When you run this code, it will print "Hello World" on the screen.
+
+Step-by-step explanation:
+
+1. **Using the print Function**: The `print()` function in Python outputs a string to the console.
+2. **Printing the String**: By passing the string `"Hello World"` inside the parentheses of `print()`, it will display that text when executed.
+
+This is one of the simplest programs you can write in Python and serves as a traditional starting point for learning programming.
